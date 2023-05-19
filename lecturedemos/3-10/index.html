@@ -1,11 +1,39 @@
 <body>
-    <h3>Outstanding Winning Lottery Tickets</h3>
-    <table id="winningTicketsTbl">
-        <tr>
-            <th>Ticket Number</th>
-            <th>Prize Amount</th>
-            <th>Expires</th>
-        </tr>
-    </table>
+
+    <div>
+        <h3>Outstanding Winning Lottery Tickets</h3>
+        <table id="winningTicketsTbl">
+            <tr>
+                <th>Ticket Number</th>
+                <th>Prize Amount</th>
+                <th>Expires</th>
+            </tr>
+        </table>
+    </div>
+
+
+    <div>
+        <label for="txtSearch">Search for jokes!</label>
+        <input type="text" id="txtSearch">
+        <button type="button" id="btnJokeSearch">Search!</button>
+
+
+        <table>
+            <table id="tableJokes">
+                <thead>
+                    <tr>
+                        <th>Joke</th>
+                    </tr>
+                </thead>
+                <tbody id="tableJokesBody">
+                </tbody>
+            </table>
+
+
+        </table>
+    </div>
+
+
+
     <script src="scripts/index.js"></script>
 </body>
